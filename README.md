@@ -3,17 +3,17 @@ This project is designed to show off how different algorithms
 sort. This currently includes bubble, insert, quick and shell sort.
 
 
-<h3> controls </h3>
-left click:
+<h2> controls </h2>
+<b>left click:</b>
 <li>uses the current sort method to sort the list</li>
-right click:
+<b>right click:</b>
 <li>randomizes the array</li>
-mouse up/down:
+<b>mouse up/down:</b>
 <li>changes the sort currently selected</li>
-config:
+<b>config:</b>
 <li>additional options are found here</li>
-<h3> requirements </h3>
-<ul>
+
+<h2> requirements </h2>
+
 <li>numpy</li>
 <li>pygame</li>
-</ul>
