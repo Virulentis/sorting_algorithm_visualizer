@@ -1,6 +1,7 @@
 import pygame
 import config
 
+
 def insertionSort(toSort, n):
     arr = toSort.arr
 
@@ -12,6 +13,6 @@ def insertionSort(toSort, n):
         j = i - 1
         while j >= 0 and key < arr[j]:
             pygame.time.delay(config.SORT_DELAY)
-            toSort.insert(j+1, arr[j])
+            toSort.insert(j + 1, arr[j])
             j -= 1
-        toSort.insert(j+1, key)
+        toSort.insert(j + 1, key)
